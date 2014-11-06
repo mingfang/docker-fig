@@ -1,0 +1,1 @@
+docker run -v /var/run/docker.sock:/run/docker.sock -v `pwd`:/docker -w /docker --rm -it fig fig $@ 
